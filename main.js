@@ -1,5 +1,5 @@
 
-
+const ejercicio1 = () => {
 let a = 2 , b = 3 , c = 4, d = 5 , e = 6, f = 12, g = 8;
 let t1 = e / f; 
 let t2 = t1 * g; 
@@ -13,8 +13,11 @@ console.log("1) \n res =",res);
 
 console.log("**************************************");
 
+}
 
-/*
+
+
+const ejercicio2 = () => {
 //x = ((m * n) / (p + q)) * (r * k);
 let m = 7 , n = 5 , z = 4, r = 4 , k = 1, p =3 ,q = 2;
 
@@ -28,8 +31,9 @@ let resu= t5 ;
 console.log("2) \n res =", resu);
 
 console.log("**************************************");
-*/
-/** 
+}
+
+const ejercicio3 = () => {
 //total = (a + b * c) * (d - e) - (f + g);
 
 let a = 2 , b = 3 , c = 4 , d = 5 , e = 6 , f = 12 , g = 8;
@@ -45,8 +49,8 @@ let total = t5 - t4;
 console.log("3) \n total =", total);
 console.log("**************************************");
 
-*/
-/** 
+}
+const ejercicio4 = () => {
 //val = a * (b + (c / d)) - e * (f + g);
 
 let a = 2 , b = 3 , c = 4 , d = 5 , e = 6 , f = 12 , g = 8;
@@ -59,11 +63,12 @@ let val = t5 - t4;
 
 console.log("4) \n val =", val);
 console.log("**************************************");
-**/
+}
 
+const ejercicio5 = () => {
 //z = (x + y / o) * r + ((a * b + k) / (c + d));
 
-/*
+
 let x = 2 , y = 3 , o = 4 , r = 5 , a = 6 , b = 7 , k = 8 , c = 9 , d = 10;
 
 let t1 = y / o;
@@ -77,4 +82,10 @@ let z = t7 + t6;
 
 console.log("5) \n z =", z);
 console.log("**************************************");
-*/
+}
+
+ejercicio1();
+ejercicio2();
+ejercicio3();
+ejercicio4();
+ejercicio5();
